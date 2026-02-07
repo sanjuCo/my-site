@@ -557,8 +557,9 @@ body::before {
 /* Responsive design */
 @media (max-width: 600px) {
     .container {
-        padding: 35px 25px;
+        padding: 25px 20px;
         border-radius: 30px;
+        max-width: 90%;
     }
     
     .question {
@@ -582,6 +583,10 @@ body::before {
         right: -30px;
     }
     
+    .content {
+        padding: 5px 10px;
+    }
+    
     .content::before,
     .content::after {
         display: none;
@@ -595,6 +600,18 @@ body::before {
     
     .success-title {
         font-size: 1.8em;
+    }
+    
+    .success-message {
+        padding: 15px 10px;
+    }
+    
+    .success-content {
+        padding: 15px 15px;
+    }
+    
+    .teddy-bear-img {
+        width: 140px;
     }
     
     .btn {
